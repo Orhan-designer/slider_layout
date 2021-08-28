@@ -1,0 +1,60 @@
+section {
+    width: 550px;
+    height: 400px;
+    margin: auto;
+    transition: .3s;
+}
+section:hover {
+    filter: brightness(80%);
+}
+
+.material-icons {
+    font-size: 70px;
+    color: white
+}
+.material-icons:hover, a:hover {
+    color: aqua;
+}
+div {
+    width: 70px;
+    position: relative;
+    cursor: pointer;
+}
+
+#before {
+    top: -250px;
+    border: none;
+}
+#next {
+    top: -325px;
+    left: 478px;
+    border: none;
+}
+
+article {
+    height: 100px;
+    background: rgba(23, 168, 168, 0.699);
+    color: white;
+    position: relative;
+    top: -269px;
+}
+h1, p {
+    padding-left: 15px;
+}
+h1 {
+    padding-top: 10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+h2 {
+    position: relative;
+    padding: 0 5px;
+    top: -350px;
+    left: 15px;
+    border: 1px solid white;
+    width: -moz-fit-content;
+    text-align: center;
+}
